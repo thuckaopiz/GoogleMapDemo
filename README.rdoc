@@ -1,5 +1,2 @@
 How to try:
-$ bundle
-$ rake db:migrate
-$ rake db:remake_data
-$ rails s
+$ bundle  ---> $ rake db:migrate  --->$ rake db:remake_data ---> $ rails s
