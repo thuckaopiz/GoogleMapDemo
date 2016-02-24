@@ -12,14 +12,6 @@
 <body>
   <div class="col-md-12">
     <div id="gmaps-canvas" style='height: 500px;'></div>
-    <div id='input' class="home-search searchbox">
-      <%= search_form_for @q do |f| %>
-        <%= f.label :name_cont %>
-        <%= f.search_field :name_cont, id: 'gmaps-input-address', placeholder: 'Start typing a place name...' %>
-        <%= f.submit %>
-      <% end %>
-      <div id='gmaps-error'></div>
-    </div>
   </div>
 <%= yield %>
 <script type="text/javascript">
